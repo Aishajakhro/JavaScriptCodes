@@ -2,13 +2,13 @@
 
 var a = 10;
 
-document.write("Result : <br> The value of a is : " +a +"<hr>");
+document.write("Result : <br> The value of a is : " + a + "<hr>");
 
-document.write("<br>The value of ++a is : " + ++a +"<br>Now the value of a is :" +a + "<br>");
+document.write("<br>The value of ++a is : " + ++a + "<br>Now the value of a is :" + a + "<br>");
 
 document.write("<br>The value of a++ is : " + a++ + "<br>Now the value of a is : " + a + "<br>");
 
-document.write("<br>The value of --a is : " + --a +"<br>Now the value of a is :" +a + "<br>");
+document.write("<br>The value of --a is : " + --a + "<br>Now the value of a is :" + a + "<br>");
 
 document.write("<br>The value of a-- is : " + a-- + "<br>Now the value of a is : " + a + "<br>");
 
@@ -16,8 +16,8 @@ document.write("<br>The value of a-- is : " + a-- + "<br>Now the value of a is :
 
 var a = 2;
 var b = 1;
-document.write("<br><br> a is : " + a + "<br>b is : " + b );
-var result = --a - --b + ++b + b-- ;
+document.write("<br><br> a is : " + a + "<br>b is : " + b);
+var result = --a - --b + ++b + b--;
 // --a = 1
 // --a - --b = 1
 // --a - --b + ++b = 2
@@ -36,8 +36,14 @@ alert("Welcome To Our Web page");
 
 var number = +prompt("Enter a number to display its Table");
 
-for(var i =1 ; i <=10 ; i++){
-     document.write("<br>" + number + " x " + i + " = " + (number*i));
+for (var i = 1; i <= 10; i++) {
+     if (number == "") {
+          document.write("<br>" + 5 + " x " + i + " = " + (5 * i));
+     }
+     else {
+
+          document.write("<br>" + number + " x " + i + " = " + (number * i));
+     }
 }
 
 
@@ -48,12 +54,12 @@ var urdu = +prompt("Enter Marks you obtained in urdu : ");
 var math = +prompt("Enter Marks you obtained in math : ");
 var subTotal = 100;
 var total = 300;
-var engPer = (eng/subTotal) * 100 ;
-var urduPer = (urdu/subTotal) * 100 ;
-var mathPer = (math/subTotal) * 100 ;
+var engPer = (eng / subTotal) * 100;
+var urduPer = (urdu / subTotal) * 100;
+var mathPer = (math / subTotal) * 100;
 var totalobtained = eng + urdu + math;
-var totalPer = (totalobtained/total) * 100;
+var totalPer = (totalobtained / total) * 100;
 
-document.write(" <table><tr><td>Subject &nbsp;</td><td>Total Marks &nbsp;</td><td>Obtained Marks &nbsp;</td><td>Percentage &nbsp;</td></tr><tr><td>English</td><td>" + subTotal + "</td><td> " + eng + "</td><td>" + engPer + "%</td></tr><tr><td>Math</td><td>" + subTotal + "</td><td>" + math + "</td><td> " + mathPer + "%</td></tr><tr><td>Urdu</td><td>" + subTotal + "</td><td>" + urdu + "</td><td>" + urduPer + "%</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>" + total +"</td><td>" + totalobtained + "</td><td>" + totalPer + "%</td></tr></table>");
+document.write(" <table><tr><td>Subject &nbsp;</td><td>Total Marks &nbsp;</td><td>Obtained Marks &nbsp;</td><td>Percentage &nbsp;</td></tr><tr><td>English</td><td>" + subTotal + "</td><td> " + eng + "</td><td>" + engPer + "%</td></tr><tr><td>Math</td><td>" + subTotal + "</td><td>" + math + "</td><td> " + mathPer + "%</td></tr><tr><td>Urdu</td><td>" + subTotal + "</td><td>" + urdu + "</td><td>" + urduPer + "%</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>" + total + "</td><td>" + totalobtained + "</td><td>" + totalPer + "%</td></tr></table>");
 
 

@@ -18,7 +18,7 @@
 //     alert("Good Morning Ma'am.");
 // }
 // else {
-//     alert("You didn't Enter your gender");
+//     alert("Good Morning. ");
 // }
 
 // // Task No 3

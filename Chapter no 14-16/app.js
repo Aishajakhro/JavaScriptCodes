@@ -2,7 +2,6 @@
 
 
 
-
 // Task No 3
 
 var stringArr = ["ali" , "ghous" , "basit"];
@@ -41,4 +40,16 @@ for(var i=0 ; i< names.length ; i++){
 }
 
 // Task No 9
+
+var color = ['red' , 'blue' , 'green'];
+
+//a
+
+
+
+// Task No 10
+
+var studentScore = [ 320 , 230 , 480 , 120];
+
+
 

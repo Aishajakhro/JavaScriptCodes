@@ -53,7 +53,7 @@ else{
     alert("Incorrect password");
 }
 
-// Task No 7
+// Task No 6
 
 var greeting; 
 var hour = 13; 
@@ -67,7 +67,7 @@ else{
 }  
 
 
-// Task No 8
+// Task No 7
 
 var time = +prompt("Enter time in 24 hours format : ");
 if(time >= 00 && time < 12 ){

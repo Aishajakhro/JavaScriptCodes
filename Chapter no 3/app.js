@@ -4,6 +4,8 @@ alert("I am "+ age + " years old")
 
 // Task No 2
 
+// Work hard to reach this level your level is low
+
 // Task No 3
 
 var birthYear = 2000;
